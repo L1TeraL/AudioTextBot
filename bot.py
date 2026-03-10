@@ -9,11 +9,6 @@ import speech_recognition as sr
 from pydub import AudioSegment
 from gigachat import GigaChat
 
-# ========== НАСТРОЙКИ ==========
-# ЗАМЕНИТЕ НА ВАШИ ДАННЫЕ С developers.sber.ru
-GIGACHAT_CREDENTIALS = "ВАШ_CLIENT_ID:ВАШ_CLIENT_SECRET"
-# ===============================
-
 # Загрузка токена
 def load_token():
     env_path = Path('.env')
@@ -161,3 +156,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
