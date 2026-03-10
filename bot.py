@@ -17,10 +17,6 @@ import speech_recognition as sr
 from pydub import AudioSegment
 from gigachat import GigaChat
 
-# ========== НАСТРОЙКИ ==========
-GIGACHAT_CREDENTIALS = "ВАШ_BASE64_КЛЮЧ"  # Замените на ваш ключ
-# ===============================
-
 # ========== НАСТРОЙКА ЛОГОВ С РОТАЦИЕЙ ==========
 def setup_logging():
     """Настройка логирования с ротацией файлов"""
@@ -405,3 +401,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
