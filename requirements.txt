@@ -2,3 +2,4 @@ python-telegram-bot==20.7
 SpeechRecognition==3.10.0
 pydub==0.25.1
 ffmpeg-python==0.2.0
+gigachat==0.2.0
